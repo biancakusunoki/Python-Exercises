@@ -1,0 +1,30 @@
+
+"""
+Program: Countdown Liftoff
+--------------------
+Countdown from 10 to 1 and then print "Liftoff!" and a rocket ASCII art.
+"""
+import time #imports the time library so the text can be printed slower in that program.
+
+def main():
+    for i in range(10): #loop that runs 10 times
+      print(10-i) #decreases i (one) from 10 everytime the assigned loop runs
+      time.sleep(1) #makes the printed text slower by one second each new print
+    print("Liftoff!") #printed when loop ends
+    print("""       
+                    .   
+                   .'.
+                   |o|
+                  .'o'.
+                  |.-.|
+                  '   '
+                   ( )
+                    )
+                   ( )    
+ 
+        """) #Printed when loop ends
+    #ASCII art by -CJ-
+
+
+if __name__ == '__main__': #This provided line is required at the end of the Python program to call the main() function.
+    main()
