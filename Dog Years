@@ -1,0 +1,25 @@
+
+"""
+Write a program which asks a user to input an age in human years, 
+and converts it to the equivalent age in dog years.
+
+Dogs have different lifespans than humans. 
+Thus their age is sometimes reported in "dog years" which 
+are scaled to be comparable to human ages. 
+On average every calendar year is equal to 7.18 dog years. 
+To convert 3 calendar years to dog years, you multiply 3 * 7.18 to get 21.54 dog years. 
+That means, if your dog is 3 years old, they're past their teenage years!
+"""
+
+DOG_YEARS_MULTIPLIER = 7.18  
+
+def main():
+    age = input("Enter an age in calendar years: ")
+    sum1 = float(age)
+    sum2 = float(7.18)
+    sum3 = sum1 * sum2
+    print(f"That's {sum3} in dog years!")
+
+
+if __name__ == '__main__':
+    main()
