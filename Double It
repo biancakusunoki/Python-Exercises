@@ -1,0 +1,15 @@
+
+def main():
+    """
+    Write a program that asks a user to enter a number. Your program will then double that number and print out the result. It will repeat that process until the value is 100 or greater.
+    """
+    curr_value = int(input("Enter a number: ")) #asks the user for input and stores it
+    
+    while curr_value < 100: #while given user number is less than 100
+     curr_value = curr_value * 2 #multiplies number by 2
+     print(f"{curr_value}") #prints the numbers doubled till condtion meet
+
+    
+
+if __name__ == '__main__':
+    main()
